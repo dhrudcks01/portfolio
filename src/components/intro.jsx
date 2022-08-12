@@ -14,7 +14,9 @@ class Intro extends React.Component {
         <div className="intro-content display-table">
           <div className="table-cell">
             <div className="container">
-              <img src={chan} width="auto" height="350px" />
+              <div class="imgbox" width="300px" height="300px">
+                <img src={chan} width="30%" height="30%" object-fit="cover" />
+              </div>
 
               <h1 className="intro-title mb-4">함께하고 싶은 오경찬 입니다!</h1>
               <h4 className="intro-title2 mb-2">
