@@ -47,8 +47,16 @@ class About extends React.Component {
       ],
       about_me: [
         {
-          id: 'first-p-about',
-          content: '울산대학교 IT융합 전공(컴퓨터 공학) : 2015.03 ~ 2019.02',
+          id: 'fifth-p-about',
+          content: '오픈소스 컨트리뷰 마스터즈 : 2022.08 ~ ',
+        },
+        {
+          id: 'fourth-p-about',
+          content: '오픈소스 컨트리뷰 챌린저스 : 2022.07 ~ 2022.08',
+        },
+        {
+          id: 'third-p-about',
+          content: '엘리스 SW Engineer 트랙 : 2022.04 ~ 2022.07',
         },
         {
           id: 'second-p-about',
@@ -56,16 +64,8 @@ class About extends React.Component {
           box: '무선소대장 1년, 교육장교 1년 ',
         },
         {
-          id: 'third-p-about',
-          content: '엘리스 SW Engineer 트랙 : 2022.04 ~ 2022.07',
-        },
-        {
-          id: 'fourth-p-about',
-          content: '오픈소스 컨트리뷰 챌린저스 : 2022.07 ~ 2022.08',
-        },
-        {
-          id: 'fifth-p-about',
-          content: '오픈소스 컨트리뷰 마스터즈 : 2022.08 ~ ',
+          id: 'first-p-about',
+          content: '울산대학교 IT융합 전공(컴퓨터 공학) : 2015.03 ~ 2019.02',
         },
       ],
     };
