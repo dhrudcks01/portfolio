@@ -597,10 +597,10 @@ INTRO
   position: relative;
   color: #fff;
 }
-/* .intro .intro-img {
-  height: 1px;
-  width: 1px;
-} */
+.intro .intro-img {
+  width: auto;
+  height: 450px;
+}
 
 .intro .intro-content {
   text-align: center;
