@@ -1,12 +1,12 @@
-import React from "react";
-import imageOverlay from "../img/earth.jpg";
+import React from 'react';
+import imageOverlay from '../img/earth.jpg';
 
 class Contact extends React.Component {
   render() {
     return (
       <section
         className="paralax-mf footer-paralax bg-image sect-mt4 route"
-        style={{ backgroundImage: "url(" + imageOverlay + ")" }}
+        style={{ backgroundImage: 'url(' + imageOverlay + ')' }}
       >
         <div className="overlay-mf"></div>
         <div className="container">
@@ -15,7 +15,7 @@ class Contact extends React.Component {
               <div className="contact-mf">
                 <div id="contact" className="box-shadow-full">
                   <div className="row">
-                    <div className="col-md-6">
+                    {/* <div className="col-md-6">
                       <div className="title-box-2">
                         <h5 className="title-left">Send A Message</h5>
                       </div>
@@ -96,58 +96,62 @@ class Contact extends React.Component {
                           </div>
                         </form>
                       </div>
-                    </div>
+                    </div> */}
                     <div className="col-md-6">
                       <div className="title-box-2 pt-4 pt-md-0">
                         <h5 className="title-left">Get in Touch</h5>
                       </div>
                       <div className="more-info">
-                        <p className="lead">
-                          Whether you want to get in touch, talk about a project
-                          collaboration, or just say hi, I'd love to hear from
-                          you.
-                          <br />
-                          Simply fill the from and send me an email.
-                        </p>
-                        {/* <!-- <ul class="list-ico">
-                                <li><span class="ion-ios-location"></span> 329 WASHINGTON ST BOSTON, MA 02108</li>
-                                <li><span class="ion-ios-telephone"></span> (617) 557-0089</li>
-                                <li><span class="ion-email"></span> contact@example.com</li>
-                                </ul> --> */}
+                        <ul class="list-ico">
+                          {/* <li>
+                            <span class="ion-ios-location"></span> 329
+                            WASHINGTON ST BOSTON, MA 02108
+                          </li>
+                          <li>
+                            <span class="ion-ios-telephone"></span> (617)
+                            557-0089
+                          </li> */}
+                          <li>
+                            <span class="ion-email"></span> dhrudcks01@gmail.com
+                          </li>
+                        </ul>
                       </div>
                       <div className="socials">
                         <ul>
                           <li>
                             <a
-                              href=""
+                              href="https://www.instagram.com/emong.26/"
                               target="_blank"
                               rel="noopener noreferrer"
                             >
-                              <span className="ico-circle">
-                                <i className="ion-social-codepen"></i>
-                              </span>
+                              <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
                             </a>
                           </li>
                           <li>
                             <a
-                              href=""
+                              href="https://github.com/dhrudcks01"
                               target="_blank"
                               rel="noopener noreferrer"
                             >
-                              <span className="ico-circle">
-                                <i className="ion-social-github"></i>
-                              </span>
+                              <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white" />
                             </a>
                           </li>
                           <li>
                             <a
-                              href=""
+                              href="https://open.kakao.com/o/sRa7Nqce"
                               target="_blank"
                               rel="noopener noreferrer"
                             >
-                              <span className="ico-circle">
-                                <i className="ion-social-linkedin"></i>
-                              </span>
+                              <img src="https://img.shields.io/badge/KakaoTalk-FFCD00?style=for-the-badge&logo=KakaoTalk&logoColor=white" />
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              href="https://velog.io/@emong_96"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              <img src="https://img.shields.io/badge/Velog-20C997?style=for-the-badge&logo=Velog&logoColor=white" />
                             </a>
                           </li>
                         </ul>
@@ -163,8 +167,7 @@ class Contact extends React.Component {
           <div className="container">
             <div className="row">
               <div className="col-sm-12">
-                <div className="copyright-box">
-                </div>
+                <div className="copyright-box"></div>
               </div>
             </div>
           </div>

@@ -6,60 +6,66 @@ class About extends React.Component {
     super();
     this.state = {
       skills: [
-        { id: 'HTML5_skill', content: 'HTML5', porcentage: '65%', value: '65' },
-        { id: 'CSS3_skill', content: 'CSS3', porcentage: '65%', value: '65' },
         {
-          id: 'JavaScript_skill',
-          content: 'JavaScript',
-          porcentage: '75%',
-          value: '75',
+          id: 'Front-End',
+          content: 'Front-End : React.Js',
         },
         {
-          id: 'NodeJS_skill',
-          content: 'NodeJS',
-          porcentage: '80%',
-          value: '80',
+          id: 'Back-End',
+          content: 'Back-End : Node.Js(Express), AWS(S3), MongoDB, Nginx, Pm2',
         },
-        {
-          id: 'ReactJS_skill',
-          content: 'ReactJS',
-          porcentage: '70%',
-          value: '70',
-        },
-        {
-          id: 'Python_skill',
-          content: 'Python',
-          porcentage: '30%',
-          value: '30',
-        },
-        {
-          id: 'VanillaJS_skill',
-          content: 'VanillaJS',
-          porcentage: '70%',
-          value: '70',
-        },
-        {
-          id: 'Java_skill',
-          content: 'Java',
-          porcentage: '30%',
-          value: '30',
-        },
+        // {
+        //   id: 'NodeJS_skill',
+        //   content: 'NodeJS',
+        //   porcentage: '80%',
+        //   value: '80',
+        // },
+        // {
+        //   id: 'ReactJS_skill',
+        //   content: 'ReactJS',
+        //   porcentage: '70%',
+        //   value: '70',
+        // },
+        // {
+        //   id: 'Python_skill',
+        //   content: 'Python',
+        //   porcentage: '30%',
+        //   value: '30',
+        // },
+        // {
+        //   id: 'VanillaJS_skill',
+        //   content: 'VanillaJS',
+        //   porcentage: '70%',
+        //   value: '70',
+        // },
+        // {
+        //   id: 'Java_skill',
+        //   content: 'Java',
+        //   porcentage: '30%',
+        //   value: '30',
+        // },
       ],
       about_me: [
         {
           id: 'first-p-about',
-          content:
-            'Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis.',
+          content: '울산대학교 IT융합 전공(컴퓨터 공학) : 2015.03 ~ 2019.02',
         },
         {
           id: 'second-p-about',
-          content:
-            'Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis.',
+          content: '11공수특전여단 정보통신대 통신장교 : 2019.03 ~ 2021.06 ',
+          box: '무선소대장 1년, 교육장교 1년 ',
         },
         {
           id: 'third-p-about',
-          content:
-            'Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis.',
+          content: '엘리스 SW Engineer 트랙 : 2022.04 ~ 2022.07',
+        },
+        {
+          id: 'fourth-p-about',
+          content: '오픈소스 컨트리뷰 챌린저스 : 2022.07 ~ 2022.08',
+        },
+        {
+          id: 'fifth-p-about',
+          content: '오픈소스 컨트리뷰 마스터즈 : 2022.08 ~ ',
         },
       ],
     };
@@ -74,7 +80,7 @@ class About extends React.Component {
               <div className="box-shadow-full">
                 <div className="row">
                   <div className="col-md-6">
-                    <div className="row">
+                    {/* <div className="row">
                       <div
                         className="col-sm-6 col-md-5"
                         style={{ margin: '0 auto' }}
@@ -87,19 +93,24 @@ class About extends React.Component {
                             className="img-fluid rounded b-shadow-a"
                             alt=""
                           />
+                          
                         </div>
                       </div>
+                    </div> */}
+                    <div className="title-box-2">
+                      <h5 className="title-left">Skills</h5>
                     </div>
                     <div className="skill-mf">
                       {/* <p className="title-s">Skill</p> */}
+
                       {this.state.skills.map((skill) => {
                         return (
                           <React.Fragment key={skill.id}>
-                            <span>{skill.content}</span>{' '}
+                            <p>{skill.content}</p>{' '}
                             <span className="pull-right">
                               {skill.porcentage}
                             </span>
-                            <div className="progress">
+                            {/* <div className="progress">
                               <div
                                 className="progress-bar"
                                 role="progressbar"
@@ -108,7 +119,7 @@ class About extends React.Component {
                                 aria-valuemin="0"
                                 aria-valuemax="100"
                               ></div>
-                            </div>
+                            </div> */}
                           </React.Fragment>
                         );
                       })}
@@ -117,12 +128,14 @@ class About extends React.Component {
                   <div className="col-md-6">
                     <div className="about-me pt-4 pt-md-0">
                       <div className="title-box-2">
-                        <h5 className="title-left">About Me</h5>
+                        <h5 className="title-left">Career</h5>
                       </div>
                       {this.state.about_me.map((content) => {
                         return (
                           <p className="lead" key={content.id}>
                             {content.content}
+                            <br />
+                            {content.box}
                           </p>
                         );
                       })}
