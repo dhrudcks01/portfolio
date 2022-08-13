@@ -601,10 +601,14 @@ INTRO
   width: auto;
   /* height: 450px; */
 }
+.intro .intro-box {
+  text-align: center;
+  height: 100px;
+}
 .intro .intro-imgbox {
   text-align: center;
-  width: 280px;
-  height: 280px;
+  width: 350px;
+  height: 350px;
   border-radius: 70%;
   overflow: hidden;
 }

@@ -14,6 +14,7 @@ class Intro extends React.Component {
         <div className="intro-content display-table">
           <div className="table-cell">
             <div className="container">
+              <div className="intro-box"></div>
               <center>
                 <div className="intro-imgbox">
                   <img
