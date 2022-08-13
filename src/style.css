@@ -599,7 +599,14 @@ INTRO
 }
 .intro .intro-img {
   width: auto;
-  height: 450px;
+  /* height: 450px; */
+}
+.intro .intro-imgbox {
+  text-align: center;
+  width: 350px;
+  height: 350px;
+  border-radius: 70%;
+  overflow: hidden;
 }
 
 .intro .intro-content {

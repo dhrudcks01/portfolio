@@ -14,10 +14,16 @@ class Intro extends React.Component {
         <div className="intro-content display-table">
           <div className="table-cell">
             <div className="container">
-              {/* <div class="imgbox" width="10px" height="10px"> */}
-              <img src={chan} width="25%" height="25%" object-fit="cover" />
-              {/* </div> */}
-
+              <center>
+                <div className="intro-imgbox">
+                  <img
+                    src={chan}
+                    width="100%"
+                    height="100%"
+                    object-fit="cover"
+                  />
+                </div>
+              </center>
               <h1 className="intro-title mb-4">함께하고 싶은 오경찬 입니다!</h1>
               <h4 className="intro-title2 mb-2">
                 특수부대 통신장교를 경험하여 팀원 및 유관부서와의 협력을 통해
