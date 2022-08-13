@@ -603,8 +603,8 @@ INTRO
 }
 .intro .intro-imgbox {
   text-align: center;
-  width: 350px;
-  height: 350px;
+  width: 280px;
+  height: 280px;
   border-radius: 70%;
   overflow: hidden;
 }
