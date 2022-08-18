@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.daec9bd8.chunk.css",
-    "main.js": "/portfolio/static/js/main.62220b04.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.62220b04.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.fe97d739.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.fe97d739.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.8940859c.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.8940859c.js.map",
     "static/css/2.a417cd58.chunk.css": "/portfolio/static/css/2.a417cd58.chunk.css",
-    "static/js/2.d6750c80.chunk.js": "/portfolio/static/js/2.d6750c80.chunk.js",
-    "static/js/2.d6750c80.chunk.js.map": "/portfolio/static/js/2.d6750c80.chunk.js.map",
+    "static/js/2.ebac879a.chunk.js": "/portfolio/static/js/2.ebac879a.chunk.js",
+    "static/js/2.ebac879a.chunk.js.map": "/portfolio/static/js/2.ebac879a.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.fcfa908e07908f32d5f188caac6bebc1.js": "/portfolio/precache-manifest.fcfa908e07908f32d5f188caac6bebc1.js",
+    "precache-manifest.67f26cb3511519d8b751eed1864e9eeb.js": "/portfolio/precache-manifest.67f26cb3511519d8b751eed1864e9eeb.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.a417cd58.chunk.css.map": "/portfolio/static/css/2.a417cd58.chunk.css.map",
     "static/css/main.daec9bd8.chunk.css.map": "/portfolio/static/css/main.daec9bd8.chunk.css.map",
-    "static/js/2.d6750c80.chunk.js.LICENSE.txt": "/portfolio/static/js/2.d6750c80.chunk.js.LICENSE.txt",
+    "static/js/2.ebac879a.chunk.js.LICENSE.txt": "/portfolio/static/js/2.ebac879a.chunk.js.LICENSE.txt",
     "static/media/androidtv1.png": "/portfolio/static/media/androidtv1.741b6c74.png",
     "static/media/androidtv2.png": "/portfolio/static/media/androidtv2.949226c5.png",
     "static/media/androidtv3.png": "/portfolio/static/media/androidtv3.7a3ea9d3.png",
@@ -28,6 +28,13 @@
     "static/media/elice16.png": "/portfolio/static/media/elice16.037c08f9.png",
     "static/media/elice17.png": "/portfolio/static/media/elice17.ecc0b933.png",
     "static/media/elice18.png": "/portfolio/static/media/elice18.8ad7fae6.png",
+    "static/media/elice21.png": "/portfolio/static/media/elice21.e0a2f364.png",
+    "static/media/elice22.png": "/portfolio/static/media/elice22.2bdf4787.png",
+    "static/media/elice23.png": "/portfolio/static/media/elice23.2937fab1.png",
+    "static/media/elice24.png": "/portfolio/static/media/elice24.a53c9461.png",
+    "static/media/elice25.png": "/portfolio/static/media/elice25.3e0ac7a7.png",
+    "static/media/elice26.png": "/portfolio/static/media/elice26.bd745da2.png",
+    "static/media/elice27.png": "/portfolio/static/media/elice27.4c70f459.png",
     "static/media/font-awesome.css": "/portfolio/static/media/fontawesome-webfont.fee66e71.woff",
     "static/media/image1.jpg": "/portfolio/static/media/image1.768998c6.jpg",
     "static/media/image2.jpg": "/portfolio/static/media/image2.8de6195d.jpg",
@@ -43,8 +50,8 @@
   "entrypoints": [
     "static/js/runtime-main.8940859c.js",
     "static/css/2.a417cd58.chunk.css",
-    "static/js/2.d6750c80.chunk.js",
+    "static/js/2.ebac879a.chunk.js",
     "static/css/main.daec9bd8.chunk.css",
-    "static/js/main.62220b04.chunk.js"
+    "static/js/main.fe97d739.chunk.js"
   ]
 }
