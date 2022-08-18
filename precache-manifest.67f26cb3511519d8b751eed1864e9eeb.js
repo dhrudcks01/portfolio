@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c1201bfbeb3d307f4917ef8e4f73f62c",
+    "revision": "8e0ee51af332ddb22c4a46bbc939bf97",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "731e1bf3ed1c0328a328",
+    "revision": "66e196ba63872c645408",
     "url": "/portfolio/static/css/2.a417cd58.chunk.css"
   },
   {
-    "revision": "11adb6f1b8f563e6c4d1",
+    "revision": "da4a09e643f10a3c6ff9",
     "url": "/portfolio/static/css/main.daec9bd8.chunk.css"
   },
   {
-    "revision": "731e1bf3ed1c0328a328",
-    "url": "/portfolio/static/js/2.d6750c80.chunk.js"
+    "revision": "66e196ba63872c645408",
+    "url": "/portfolio/static/js/2.ebac879a.chunk.js"
   },
   {
     "revision": "8db3a0471793e9bb96443ba06a09bcfe",
-    "url": "/portfolio/static/js/2.d6750c80.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.ebac879a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "11adb6f1b8f563e6c4d1",
-    "url": "/portfolio/static/js/main.62220b04.chunk.js"
+    "revision": "da4a09e643f10a3c6ff9",
+    "url": "/portfolio/static/js/main.fe97d739.chunk.js"
   },
   {
     "revision": "0d4bf47b70941af9967b",
@@ -82,6 +82,34 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "8ad7fae615ac3b75014f51f58d7b22fd",
     "url": "/portfolio/static/media/elice18.8ad7fae6.png"
+  },
+  {
+    "revision": "e0a2f364456b0db4954c00d84c37e4de",
+    "url": "/portfolio/static/media/elice21.e0a2f364.png"
+  },
+  {
+    "revision": "2bdf478785084ef4ef211a5ab5013915",
+    "url": "/portfolio/static/media/elice22.2bdf4787.png"
+  },
+  {
+    "revision": "2937fab1cb99e5870b48706b547a69c8",
+    "url": "/portfolio/static/media/elice23.2937fab1.png"
+  },
+  {
+    "revision": "a53c9461a26df7d78ee08ded5e9f425b",
+    "url": "/portfolio/static/media/elice24.a53c9461.png"
+  },
+  {
+    "revision": "3e0ac7a78291b3e9d903346d5bb53ac8",
+    "url": "/portfolio/static/media/elice25.3e0ac7a7.png"
+  },
+  {
+    "revision": "bd745da209446e6894b6bf1c4a66ef2c",
+    "url": "/portfolio/static/media/elice26.bd745da2.png"
+  },
+  {
+    "revision": "4c70f4596d93dcccfb1a9156b5d642d0",
+    "url": "/portfolio/static/media/elice27.4c70f459.png"
   },
   {
     "revision": "674f50d287a8c48dc19ba404d20fe713",
