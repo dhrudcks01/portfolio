@@ -19,6 +19,13 @@ import elice15 from '../img/elice15.png';
 import elice16 from '../img/elice16.png';
 import elice17 from '../img/elice17.png';
 import elice18 from '../img/elice18.png';
+import elice21 from '../img/elice21.png';
+import elice22 from '../img/elice22.png';
+import elice23 from '../img/elice23.png';
+import elice24 from '../img/elice24.png';
+import elice25 from '../img/elice25.png';
+import elice26 from '../img/elice26.png';
+import elice27 from '../img/elice27.png';
 
 class Portfolio extends React.Component {
   render() {
@@ -168,9 +175,9 @@ class Portfolio extends React.Component {
             </div>
             <div className="col-md-4">
               <div className="work-box">
-                <a href={stock} data-lightbox="gallery-todo">
+                <a href={elice21} data-lightbox="gallery-todo">
                   <div className="work-img">
-                    <img src={stock} alt="" className="img-fluid" />
+                    <img src={elice21} alt="" className="img-fluid" />
                   </div>
                   <div className="work-content">
                     <div className="row">
@@ -192,36 +199,44 @@ class Portfolio extends React.Component {
                     </div>
                   </div>
                 </a>
+
                 <a
-                  href={stock1}
+                  href={elice22}
                   data-lightbox="gallery-todo"
                   style={{ display: 'none' }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
-                  href={stock2}
+                  href={elice23}
                   data-lightbox="gallery-todo"
                   style={{ display: 'none' }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
-                  href={stock3}
+                  href={elice24}
                   data-lightbox="gallery-todo"
                   style={{ display: 'none' }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
-                  href={stock4}
+                  href={elice25}
                   data-lightbox="gallery-todo"
                   style={{ display: 'none' }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
-                  href={stock5}
+                  href={elice26}
+                  data-lightbox="gallery-todo"
+                  style={{ display: 'none' }}
+                >
+                  jsx-a11y/anchor-has-content warning
+                </a>
+                <a
+                  href={elice27}
                   data-lightbox="gallery-todo"
                   style={{ display: 'none' }}
                 >
